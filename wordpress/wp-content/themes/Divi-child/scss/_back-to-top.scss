@@ -1,0 +1,28 @@
+/*
+ * Back to top
+ */
+.et_pb_scroll_top.et-pb-icon {
+  right: 30px;
+  bottom: 70px;
+  padding: 8px;
+  border-radius: 30px;
+  background: rgb(212, 214, 214);
+  font-size: 32px;
+  transition: all .1s ease-in-out;
+}
+
+.et_pb_scroll_top.et-pb-icon:hover {
+  bottom: 32px;
+  background: rgb(212, 214, 214);
+  transition: all .1s ease-in-out;
+  box-shadow: 0 10px 15px #162c4e4a;
+}
+
+.et_pb_scroll_top.et-visible {
+  animation: fadeInBottom 1s 1 cubic-bezier(.50, 0, .160, 1);
+}
+
+.et_pb_scroll_top.et-hidden {
+  opacity: 0;
+  animation: fadeOutBottom 1s 1 cubic-bezier(.77, 0, .175, 1);
+}

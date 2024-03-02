@@ -1,0 +1,141 @@
+/*
+  Button
+*/
+.poca-product-button {
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  padding: 15px 25px;
+  line-height: 24px;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  color: #000;
+  transition: all .2s ease-in-out;
+}
+
+.poca-product-button-blue {
+  background: #117e77;
+  color: #fff;
+}
+
+.poca-product-button-blue:hover,
+.poca-product-button-blue:focus {
+  opacity: 0.8;
+  background: rgba(17, 126, 119, .8);
+  border: 2px solid #117E77;
+}
+
+.poca-product-button-purple {
+  background: #674399;
+  color: #fff;
+}
+
+.poca-product-button-purple:hover,
+.poca-product-button-purple:focus {
+  opacity: 0.8;
+  background: #966ccf;
+  border: 2px solid #966ccf;
+}
+
+/*
+  list
+*/
+.poca-hotel-review-list-wrapper {
+  width: 100%;
+  padding: 10px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+}
+
+.poca-hotel-review-list-wrapper ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.poca-hotel-review-list-wrapper ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.poca-hotel-review-list-wrapper ul li svg {
+  margin-right: 5px;
+}
+
+/*
+  Rating
+*/
+.poca-hotel-rating {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.poca-hotel-rating-rate-wrapper {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.poca-hotel-rating-rate {
+  position: relative;
+  display: inline-table;
+  float: right;
+  padding: 15px 12px 0;
+  border-radius: 5px;
+  background: #000;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 400;
+  min-height: 52px;
+  min-width: max-content;
+}
+
+.poca-hotel-rating-rate::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  bottom: 0;
+  left: -8px;
+  border: 15px solid transparent;
+  border-bottom: 25px solid #000;
+}
+
+.poca-hotel-rating-rate-blue {
+  background: #117e77;
+}
+
+.poca-hotel-rating-rate-blue::after {
+  border-bottom: 25px solid #117e77;
+}
+
+.poca-hotel-rating-rate-purple {
+  background: #7f54b3;
+}
+
+.poca-hotel-rating-rate-purple::after {
+  border-bottom: 25px solid #7f54b3;
+}
+
+.poca-hotel-rating-rate span {
+  font-size: 14px;
+  color: #fff;
+}
+
+
+/*
+  Star
+*/
+.poca-hotel-rating-star {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.poca-hotel-rating-star h1 {
+  font-size: 30px;
+}

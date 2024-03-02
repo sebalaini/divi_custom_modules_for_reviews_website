@@ -1,0 +1,83 @@
+.pocr-hotel-review-wrapper p:first-of-type {
+  padding: 0;
+}
+
+.pocr-hotel-review-image {
+  margin: 0 auto 15px;
+}
+
+.pocr-hotel-review-bottom-wrapper {
+  display: inline-block;
+  width: 100%;
+}
+
+.pocr-hotel-review-list-wrapper {
+  width: 100%;
+  padding: 10px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+}
+
+.pocr-hotel-review-list-wrapper ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pocr-hotel-review-list-wrapper ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.pocr-hotel-review-list-wrapper ul li svg {
+  margin-right: 5px;
+}
+
+.pocr-hotel-review-button-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 10px;
+}
+
+.pocr-hotel-review-button-wrapper a {
+  margin: 5px auto;
+  max-width: fit-content;
+}
+
+@media (min-width: 768px) {
+  .pocr-hotel-review-button-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0;
+  }
+}
+
+@media (min-width: 980px) {
+  .pocr-hotel-review-image {
+    width: 48%;
+    margin-top: 8px;
+    margin-right: 15px;
+    float: left;
+  }
+
+  .pocr-hotel-review-list-wrapper {
+    width: 49%;
+    float: left;
+  }
+
+  .pocr-hotel-review-button-wrapper {
+    width: 49%;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+    margin-left: 1.5%;
+    padding-top: 5px;
+  }
+}

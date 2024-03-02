@@ -1,0 +1,9 @@
+echo "Checking Branch code..."
+
+npx lint-staged
+
+./vendor/bin/php-cs-fixer fix --verbose
+
+echo "\033[0;32m Branch code check Completed :D \033[0m"
+
+exit 0

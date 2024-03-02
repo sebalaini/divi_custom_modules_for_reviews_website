@@ -1,0 +1,45 @@
+{
+	"name": "sebalaini_divi_custom_modules_for_reviews_website",
+	"license": "MIT",
+	"version": "1.0",
+	"private": false,
+  "engines": {
+    "node": "^18"
+  },
+	"scripts": {
+    "prettier:fix": "prettier --write '*.json' 'wordpress/wp-content/plugins/post-custom-attributes/**/*.{js,jsx,json}' 'wordpress/wp-content/plugins/post-custom-review/**/*.{js,jsx,json}'",
+    "prepare": "husky || true"
+	},
+	"dependencies": {
+		"husky": "^9.0.11",
+		"lint-staged": "^13.2.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.22.5",
+		"del": "^7.0.0",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^8.0.0",
+		"gulp-babel": "^8.0.0",
+		"gulp-clean-css": "^4.3.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-header-comment": "^0.10.0",
+		"gulp-sass": "^5.1.0",
+		"gulp-sourcemaps": "^3.0.0",
+		"gulp-strip-comments": "^2.5.2",
+		"gulp-uglify": "^3.0.2",
+		"gulp-uglify-es": "^3.0.0",
+		"prettier": "^2.8.8",
+		"sass": "^1.63.4"
+	},
+	"lint-staged": {
+		"*.{json,md}": [
+			"yarn prettier --write"
+		],
+		"wordpress/wp-content/plugins/post-custom-attributes/**/*.{js,jsx,json}": [
+			"yarn prettier --write"
+		],
+		"wordpress/wp-content/plugins/post-custom-review/**/*.{js,jsx,json}": [
+			"yarn prettier --write"
+		]
+	}
+}

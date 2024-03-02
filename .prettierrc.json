@@ -1,0 +1,14 @@
+{
+	"parser": "flow",
+	"endOfLine": "lf",
+	"printWidth": 10000,
+	"useTabs": true,
+	"tabWidth": 2,
+	"semi": true,
+	"trailingComma": "es5",
+	"singleAttributePerLine": true,
+	"bracketSpacing": true,
+	"bracketSameLine": false,
+	"jsxSingleQuote": true,
+	"singleQuote": true
+}

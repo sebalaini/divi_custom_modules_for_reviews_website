@@ -1,0 +1,90 @@
+# Copyright (C) 2023 Sebastiano Laini
+# This file is distributed under the GPL3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Custom Review 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/post-custom-"
+"review\n"
+"POT-Creation-Date: 2023-11-25 20:19:34+00:00\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/modules/Post/Post.php:16
+msgid "Post custom review"
+msgstr ""
+
+#: includes/modules/Post/Post.php:35
+msgid "Post"
+msgstr ""
+
+#: includes/modules/Post/Post.php:36
+msgid "Choose the desired post."
+msgstr ""
+
+#: includes/modules/Post/Post.php:42
+msgid "Card Title"
+msgstr ""
+
+#: includes/modules/Post/Post.php:45
+msgid "Input the card title."
+msgstr ""
+
+#: includes/modules/Post/Post.php:49
+msgid "Button Color"
+msgstr ""
+
+#: includes/modules/Post/Post.php:50
+msgid "Choose the Button Color."
+msgstr ""
+
+#: includes/modules/Post/Post.php:57
+msgid "Select Color"
+msgstr ""
+
+#: includes/modules/Post/Post.php:58
+msgid "Blue"
+msgstr ""
+
+#: includes/modules/Post/Post.php:59
+msgid "Purple"
+msgstr ""
+
+#: includes/modules/Post/Post.php:63
+msgid "Card text"
+msgstr ""
+
+#: includes/modules/Post/Post.php:66
+msgid "Input the card text."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Post Custom Review"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://sebastianolaini.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "post custom review"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Sebastiano Laini"
+msgstr ""

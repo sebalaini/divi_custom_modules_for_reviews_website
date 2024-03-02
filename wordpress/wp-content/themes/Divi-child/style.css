@@ -1,0 +1,12 @@
+/**
+ * Theme Name:     Divi Child
+ * Theme URI:      https://github.com/sebalaini/divi_custom_modules_for_reviews_website/
+ * Description:    Divi Child Theme
+ * Author:         sebalaini
+ * Author URI:     https://github.com/sebalaini/
+ * Template:       Divi
+ * Version:        1.0.0
+ */
+
+.et_pb_scroll_top.et-pb-icon{right:30px;bottom:70px;padding:8px;border-radius:30px;background:#d4d6d6;font-size:32px;transition:all .1s ease-in-out}.et_pb_scroll_top.et-pb-icon:hover{bottom:32px;background:#d4d6d6;transition:all .1s ease-in-out;box-shadow:0 10px 15px rgba(22,44,78,.2901960784)}.et_pb_scroll_top.et-visible{animation:fadeInBottom 1s 1 cubic-bezier(.5,0,.16,1)}.et_pb_scroll_top.et-hidden{opacity:0;animation:fadeOutBottom 1s 1 cubic-bezier(.77,0,.175,1)}
+/*# sourceMappingURL=style.css.map */

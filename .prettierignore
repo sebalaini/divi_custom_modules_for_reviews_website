@@ -1,0 +1,12 @@
+.prettierrc.json
+package.json
+composer.json
+asset-manifest.json
+
+*.min.*
+*.css
+
+**/languages/*
+
+wordpress/**/*.md
+theme.js
